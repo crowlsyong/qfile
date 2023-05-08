@@ -6,6 +6,7 @@ import * as $0 from "./routes/[section]/[title].tsx";
 import * as $1 from "./routes/[section]/index.tsx";
 import * as $2 from "./routes/index.tsx";
 import * as $$0 from "./islands/Post.tsx";
+import * as $$1 from "./islands/UserIP.tsx";
 
 const manifest = {
   routes: {
@@ -15,6 +16,7 @@ const manifest = {
   },
   islands: {
     "./islands/Post.tsx": $$0,
+    "./islands/UserIP.tsx": $$1,
   },
   baseUrl: import.meta.url,
 };
